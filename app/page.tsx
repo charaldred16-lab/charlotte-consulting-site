@@ -9,8 +9,7 @@ export default function CharlotteConsultingSite() {
           </p>
 
           <h1 className="max-w-4xl text-4xl font-semibold leading-tight md:text-6xl">
-            Helping ecommerce brands improve conversion, customer experience and digital performance.
-          </h1>
+            Helping ecommerce brands create better digital experiences that customers love and businesses benefit from.</h1>
 
           <p className="mt-8 max-w-3xl text-lg leading-relaxed text-stone-600">
             I’m a customer-led digital experience and optimisation specialist with 10+ years’ experience helping global ecommerce businesses improve how people discover, use and engage with digital products.
