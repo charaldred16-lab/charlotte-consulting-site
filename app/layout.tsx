@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
+
+const GA_MEASUREMENT_ID = "G-YEE440LSF1";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,7 +59,6 @@ export const metadata: Metadata = {
     follow: true,
   },
 };
-};
 
 export default function RootLayout({
   children,
@@ -69,15 +71,18 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YEE440LSF1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YEE440LSF1');
-</script>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-YEE440LSF1`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         {children}
         <Analytics />
         <SpeedInsights />
