@@ -76,52 +76,29 @@ export default function CharlotteConsultingSite() {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
             <div className="rounded-3xl border border-stone-200 bg-white p-8 shadow-sm">
               <h3 className="mb-4 text-xl font-semibold">
-                Ecommerce Experience Audit
+                Discover unmet customer needs and opportunities for growth
               </h3>
 
               <p className="mb-6 leading-relaxed text-stone-600">
-                A customer journey and conversion review designed to identify friction points, optimisation opportunities and quick wins.
-              </p>
-
-              <ul className="space-y-3 text-sm text-stone-700">
-                <li>• UX & customer journey analysis</li>
-                <li>• Conversion opportunity review</li>
-                <li>• Competitor benchmarking</li>
-                <li>• Prioritised recommendations</li>
-              </ul>
+                Research that uncovers opportunities for new products, better experiences and stronger customer engagement.</p>
             </div>
 
             <div className="rounded-3xl border border-stone-200 bg-white p-8 shadow-sm">
               <h3 className="mb-4 text-xl font-semibold">
-                Experimentation & Optimisation
+                Increase conversion
               </h3>
 
               <p className="mb-6 leading-relaxed text-stone-600">
-                Support building smarter, evidence-led digital experiences through testing, customer insight and optimisation.
-              </p>
-
-              <ul className="space-y-3 text-sm text-stone-700">
-                <li>• CRO & experimentation strategy</li>
-                <li>• A/B testing roadmap support</li>
-                <li>• Landing page optimisation</li>
-              </ul>
+                Use experimentation, behavioural insight and customer journey optimisation to remove friction.</p>
             </div>
 
             <div className="rounded-3xl border border-stone-200 bg-white p-8 shadow-sm">
               <h3 className="mb-4 text-xl font-semibold">
-                UX Research & Customer Insight
+                Shape digital strategy
               </h3>
 
               <p className="mb-6 leading-relaxed text-stone-600">
-                Research and behavioural insight support to uncover unmet user needs, identify friction points and inform better digital product and customer experience decisions.
-              </p>
-
-              <ul className="space-y-3 text-sm text-stone-700">
-                <li>• UX research & customer interviews</li>
-                <li>• Behavioural insight analysis</li>
-                <li>• Opportunity identification</li>
-                <li>• Customer journey mapping</li>
-              </ul>
+                Helping product and digital teams make confident, evidence-based decisions.</p>
             </div>
 
             <div className="rounded-3xl border border-stone-200 bg-white p-8 shadow-sm">
@@ -132,13 +109,6 @@ export default function CharlotteConsultingSite() {
               <p className="mb-6 leading-relaxed text-stone-600">
                 Embedded strategic and hands-on support for ecommerce and digital teams on a flexible basis.
               </p>
-
-              <ul className="space-y-3 text-sm text-stone-700">
-                <li>• Cross-functional collaboration</li>
-                <li>• Product & optimisation strategy</li>
-                <li>• Customer experience improvement</li>
-                <li>• Flexible part-time support</li>
-              </ul>
             </div>
           </div>
         </div>
