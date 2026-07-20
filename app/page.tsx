@@ -69,8 +69,7 @@ export default function CharlotteConsultingSite() {
           <div className="mb-14">
             <h2 className="mb-4 text-3xl font-semibold">Services</h2>
             <p className="max-w-3xl text-lg text-stone-600">
-              Flexible support for ecommerce and consumer brands looking to improve digital performance, customer experience and conversion.
-            </p>
+              Flexible support for ecommerce and consumer brands looking to improve digital performance, customer experience and conversion.</p>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -118,28 +117,28 @@ export default function CharlotteConsultingSite() {
       <section className="px-6 py-20 md:px-16 lg:px-24">
         <div className="mx-auto max-w-5xl">
           <h2 className="mb-12 text-3xl font-semibold">
-            Results
+            Case studies
           </h2>
 
           <div className="grid gap-6">
             <div className="rounded-3xl border border-stone-200 bg-white p-8">
               <p className="mb-2 text-3xl font-semibold">2x</p>
               <p className="text-lg leading-relaxed text-stone-700">
-                Doubled conversion rates through experimentation and customer journey optimisation.
+                Doubled conversion rates through customer journey optimisation and experimentation.
               </p>
             </div>
 
             <div className="rounded-3xl border border-stone-200 bg-white p-8">
               <p className="mb-2 text-3xl font-semibold">$10+</p>
               <p className="text-lg leading-relaxed text-stone-700">
-                Revenue per visitor uplift delivered through optimisation and digital experience improvements.
+                Revenue per visitor uplift delivered through digital experience improvements.
               </p>
             </div>
 
             <div className="rounded-3xl border border-stone-200 bg-white p-8">
               <p className="mb-2 text-3xl font-semibold">88%</p>
               <p className="text-lg leading-relaxed text-stone-700">
-                Organic growth contribution through SEO and experimentation initiatives.
+                Organic growth from digital improvements.
               </p>
             </div>
           </div>
@@ -153,12 +152,11 @@ export default function CharlotteConsultingSite() {
       >
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-6 text-3xl font-semibold leading-tight md:text-5xl">
-            Open to fractional, consulting and flexible opportunities.
+            Open to fractional, consulting and flexible part-time opportunities.
           </h2>
 
           <p className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-stone-700">
-            If you’re looking for support across digital experience, ecommerce optimisation or customer-led growth, I’d love to hear from you.
-          </p>
+            Interested in improving your digital experience? Whether you need strategic support, UX research or optimisation expertise, I'd love to hear about your project.</p>
 
           <div className="flex flex-wrap justify-center gap-4">
             <a
