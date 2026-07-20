@@ -2,9 +2,6 @@ export default function CharlotteConsultingSite() {
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800 font-sans">
       {/* Hero */}
-      <meta name="title" content="Digital experience and UX researcher | Freelancer | Fractional expert"></meta>
-      <meta name="description" content="Digital experience and UX researcher expert helping businesses move from opinion led to evidence based digital optimisations. I can help with UX research, Conversion rate optimisation, ecommerce audits one off projects or support fractionally / part time. For when you need expert help part time."></meta>
-
       <section className="bg-rose-100 px-6 py-20 md:px-16 lg:px-24 border-b border-rose-200">
         <div className="max-w-5xl mx-auto">
           <p className="mb-4 text-sm uppercase tracking-widest text-rose-400">
