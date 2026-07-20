@@ -2,15 +2,6 @@ export default function CharlotteConsultingSite() {
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800 font-sans">
       {/* Hero */}
-      <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YEE440LSF1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YEE440LSF1');
-</script>
       <section className="bg-rose-100 px-6 py-20 md:px-16 lg:px-24 border-b border-rose-200">
         <div className="max-w-5xl mx-auto">
           <p className="mb-4 text-sm uppercase tracking-widest text-rose-400">
